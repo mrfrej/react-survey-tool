@@ -6,9 +6,9 @@ import ProgressBar from './ProgressBar.js'
 import DropDown from './DropDown'
 
 const Input = (value, onUpdateInputValue) => {
-    return <div><label className="input-label">Your Answer:</label>
+    return (<div><label className="input-label">Your Answer:</label>
         <textarea className="input" type="text" maxLength="250" value={value} onChange={onUpdateInputValue}/>
-    </div>
+    </div>)
 }
 
 const BackButton = (current, onClickBack) => {

@@ -2,76 +2,76 @@
 @import '../../../common-styles/common-style';
 
 .dd-wrapper {
-  position: relative;
+    position: relative;
 }
 
 .dropdown-wrapper {
-  position: relative;
+    position: relative;
 }
 
 .dropdown-toggle {
-  background: $darker-blue;
-  border-radius: 5px 5px 5px 5px;
-  font-weight: 700;
-  font-size: $small-font-size;
-  margin: 0px 0px 5px;
-  padding: 15px 15px;
-  color: white;
-  cursor: pointer;
-  padding-left: 0px;
+    background: $darker-blue;
+    border-radius: 5px 5px 5px 5px;
+    font-weight: 700;
+    font-size: $small-font-size;
+    margin: 0px 0px 5px;
+    padding: 15px 15px;
+    color: white;
+    cursor: pointer;
+    padding-left: 0px;
 }
 
 .dropdown-selected {
-  font-weight: 500;
-  margin: 2px 20px;
-  margin-right: 30px;
-  float: left;
+    font-weight: 500;
+    margin: 2px 20px;
+    margin-right: 30px;
+    float: left;
 }
 
 .dropdown-menu {
-  z-index: 10;
-  position: absolute;
-  width: 98%;
-  border-top: none;
-  border-bottom-right-radius: 3px;
-  border-bottom-left-radius: 3px;
-  background-color: $darker-blue;
-  font-weight: 500;
-  padding-bottom: 5px;
-  padding-top: 5px;
-  margin-left: 1%;
-  max-height: 215px;
-  overflow-y: scroll;
-  -webkit-overflow-scrolling: touch;
-  color: white;
+    z-index: 10;
+    position: absolute;
+    width: 98%;
+    border-top: none;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    background-color: $darker-blue;
+    font-weight: 500;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-left: 1%;
+    max-height: 215px;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+    color: white;
 }
 
 .dropdown-menu-item {
-  width: 100%;
-  font-size: $small-font-size;
-  font-weight: 500;
-  padding: 8px 10px;
-  line-height: 1.6rem;
-  display: inline-block;
-  white-space: nowrap;
-  text-overflow: ellipsis;
-  cursor: pointer;
+    width: 100%;
+    font-size: $small-font-size;
+    font-weight: 500;
+    padding: 8px 10px;
+    line-height: 1.6rem;
+    display: inline-block;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    cursor: pointer;
 }
 
 .dropdown-menu-item:hover {
-  color: white;
-  background-color: $dark-blue;
+    color: white;
+    background-color: $dark-blue;
 }
 
 .dropdown-arrow {
-  float: right;
-  text-align: right;
-  margin-left: 20px;
-  margin-right: 20px;
-  color: white;
-  z-index: 200;
-  position: relative;
-  right: 0;
+    float: right;
+    text-align: right;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
+    z-index: 200;
+    position: relative;
+    right: 0;
 }
 
 /*
@@ -82,12 +82,12 @@ http://nicolasgallagher.com/micro-clearfix-hack/
 
 .cf:before,
 .cf:after {
-  content: " "; /* 1 */
-  display: table; /* 2 */
+    content: " "; /* 1 */
+    display: table; /* 2 */
 }
 
 .cf:after {
-  clear: both;
+    clear: both;
 }
 
 /**
@@ -95,5 +95,5 @@ http://nicolasgallagher.com/micro-clearfix-hack/
 * Include this rule to trigger hasLayout and contain floats.
 */
 .cf {
-  *zoom: 1;
+    *zoom: 1;
 }

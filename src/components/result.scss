@@ -2,74 +2,74 @@
 @import '../common-styles/variables';
 
 .summary {
-  color: rgb(255, 255, 255);
-  font-weight: 700;
-  font-size: $big-font-size;
-  margin-top: 0px;
-  margin-bottom: 20px;
-  text-align: left;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    font-size: $big-font-size;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    text-align: left;
 }
 
 .summary-question {
-  color: rgb(255, 255, 255);
-  font-weight: 500;
-  font-size: $normal-font-size;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  text-align: left;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    font-size: $normal-font-size;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: left;
 }
 
 .summary-answer {
-  color: rgb(255, 255, 255);
-  font-weight: 500;
-  font-size: $normal-font-size;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  text-align: left;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    font-size: $normal-font-size;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: left;
 }
 
 @media screen and (min-width: 680px) {
-  .questions-and-anwers {
-    bottom: 0px;
-    box-sizing: border-box;
-    color: rgb(255, 255, 255);
-    cursor: pointer;
-    left: 0px;
-    position: relative;
-    right: 0px;
-    top: 15px;
-    width: 100%;
-    background: rgba(27, 36, 51, 0.6);
-    border: 0px none;
-    border-radius: 5px 5px 5px 5px;
-    font-weight: 700;
-    font-size: $small-font-size;
-    margin: 0px 0px 5px;
-    padding: 25px 50px;
-    padding-left: 30px;
-    border-color: rgba(27, 36, 51, 0.6);
-  }
+    .questions-and-anwers {
+        bottom: 0px;
+        box-sizing: border-box;
+        color: rgb(255, 255, 255);
+        cursor: pointer;
+        left: 0px;
+        position: relative;
+        right: 0px;
+        top: 15px;
+        width: 100%;
+        background: rgba(27, 36, 51, 0.6);
+        border: 0px none;
+        border-radius: 5px 5px 5px 5px;
+        font-weight: 700;
+        font-size: $small-font-size;
+        margin: 0px 0px 5px;
+        padding: 25px 50px;
+        padding-left: 30px;
+        border-color: rgba(27, 36, 51, 0.6);
+    }
 }
 
 @media screen and (max-width: 679px) {
-  .questions-and-anwers {
-    bottom: 0px;
-    box-sizing: border-box;
-    color: rgb(255, 255, 255);
-    cursor: pointer;
-    left: 0px;
-    position: relative;
-    right: 0px;
-    top: 15px;
-    width: 100%;
-    background: rgba(27, 36, 51, 0.6);
-    border: 0px none;
-    border-radius: 5px 5px 5px 5px;
-    font-weight: 700;
-    font-size: $small-font-size;
-    margin: 0px 0px 5px;
-    padding: 15px 50px;
-    padding-left: 30px;
-    border-color: rgba(27, 36, 51, 0.6);
-  }
+    .questions-and-anwers {
+        bottom: 0px;
+        box-sizing: border-box;
+        color: rgb(255, 255, 255);
+        cursor: pointer;
+        left: 0px;
+        position: relative;
+        right: 0px;
+        top: 15px;
+        width: 100%;
+        background: rgba(27, 36, 51, 0.6);
+        border: 0px none;
+        border-radius: 5px 5px 5px 5px;
+        font-weight: 700;
+        font-size: $small-font-size;
+        margin: 0px 0px 5px;
+        padding: 15px 50px;
+        padding-left: 30px;
+        border-color: rgba(27, 36, 51, 0.6);
+    }
 }
