@@ -1,0 +1,79 @@
+@import '../../../common-styles/variables';
+
+@media screen and (min-width: 680px) {
+
+  .check {
+    text-align: left;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 25px;
+    color: white;
+    z-index: 200;
+  }
+
+  .button-question {
+    bottom: 0px;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    position: relative;
+    width: 100%;
+    background: $darker-blue;
+    border: 0px none;
+    border-radius: 5px 5px 5px 5px;
+    font-weight: 700;
+    font-size: $normal-font-size;
+    margin: 0px 0px 5px;
+    padding: 25px 50px;
+    padding-left: 30px;
+    border-color: rgba(27, 36, 51, 0.6);
+  }
+
+}
+
+@media screen and (max-width: 680px) {
+
+  .check {
+    text-align: left;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 15px;
+    color: white;
+    z-index: 200;
+  }
+
+  .button-question {
+    bottom: 0px;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    position: relative;
+    width: 100%;
+    background: $darker-blue;
+    border: 0px none;
+    border-radius: 5px 5px 5px 5px;
+    font-weight: 700;
+    font-size: $normal-font-size;
+    margin: 0px 0px 5px;
+    padding: 15px 50px;
+    padding-left: 30px;
+  }
+
+}
+
+.button-question {
+  &:focus {
+    outline: 0;
+  }
+  &:hover {
+    background: $darkest-blue
+  }
+  &:active {
+    background: $darkest-blue
+  }
+}
+
+.selected {
+  background: $darkest-blue !important;
+}
+

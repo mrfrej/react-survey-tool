@@ -1,0 +1,54 @@
+[
+  {
+    "text": "What is your favorite snack?",
+    "type": "radio",
+    "choices": [
+      {
+        "id": 0,
+        "value": "Chips"
+      },
+      {
+        "id": 1,
+        "value": "Pancakes"
+      },
+      {
+        "id": 2,
+        "value": "Cookies"
+      },
+      {
+        "id": 3,
+        "value": "Vegetables"
+      }
+    ]
+  },
+  {
+    "text": "Write a poem",
+    "type": "input"
+  },
+  {
+    "text": "What continent are you from?",
+    "type": "dropDown",
+    "choices": [
+      {
+        "id": 0,
+        "value": "Australia"
+      },
+      {
+        "id": 1,
+        "value": "Asia"
+      },
+      {
+        "id": 2,
+        "value": "Europe"
+      },
+      {
+        "id": 3,
+        "value": "America"
+      },
+      {
+        "id": 4,
+        "value": "Other"
+      }
+    ]
+  }
+]

@@ -1,0 +1,62 @@
+@import '../../../common-styles/variables';
+
+@media screen and (max-width: 679px) {
+
+  .input {
+    color: $darker-blue;;
+    height: 100px;
+    width: 98%;
+    max-width: 100%;
+    border: 2px solid rgb(235, 238, 241);
+    border-radius: 5px 5px 5px 5px;
+    font-weight: 300;
+    font-size: $normal-font-size;
+    margin-left: 1%;
+    padding-left: 0px;
+    box-sizing: border-box;
+  }
+
+  .input-label {
+    color: rgb(255, 255, 255);
+    display: block;
+    max-width: 100%;
+    width: 90%;
+    font-size: $small-font-size;
+    font-weight: 500;
+    margin: 0px 0px 15px;
+    margin-left: 1%;
+  }
+
+}
+
+@media screen and (min-width: 679px) {
+
+  .input {
+    color: $darker-blue;;
+    height: 120px;
+    width: 100%;
+    border: 2px solid rgb(235, 238, 241);
+    border-radius: 5px 5px 5px 5px;
+    font-weight: 300;
+    font-size: $normal-font-size;
+    margin: 0px 0px 15px;
+    margin-left: 0%;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box; /* Firefox, other Gecko */
+    box-sizing: border-box;
+  }
+
+  .input-label {
+    color: rgb(255, 255, 255);
+    display: block;
+    max-width: 100%;
+    width: 100%;
+    font-size: $small-font-size;
+    font-weight: 500;
+    margin: 0px 0px 15px;
+    margin-left: 0%;
+  }
+}
+
+
+
