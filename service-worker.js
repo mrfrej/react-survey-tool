@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/react-survey-tool/precache-manifest.24ae33f1eb81668365088475632ba636.js"
+  "/react-survey-tool/precache-manifest.0840bf299da7dc5dbc581a5d915bb510.js"
 );
 
 workbox.clientsClaim();
