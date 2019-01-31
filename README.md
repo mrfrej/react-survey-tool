@@ -1,3 +1,5 @@
+https://medium.com/missive-app/45-faster-react-functional-components-now-3509a668e69f
+
 **React survey tool:**
 
 A survey tool written in react.

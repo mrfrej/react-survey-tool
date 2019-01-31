@@ -23,6 +23,7 @@ body {
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     font-family: 'Roboto';
     font-weight: 300;
+    overflow-x:hidden;
 
 }
 
@@ -47,6 +48,7 @@ h5 {
     top: 0;
     left: 0;
     background-color: #e5e7ed;
+    overflow-y: scroll;
 }
 
 button {
